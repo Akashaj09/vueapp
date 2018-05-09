@@ -111,12 +111,31 @@ body{
   background: #242729;
   height: 200px;
 }
+.pd-10{
+  padding: 10px;
+}
+.pd-0{
+  padding: 0px;
+}
 @media screen and (max-width: 480px) {
     .counter-section{
       width: 100%;
       padding: 10px;
     }
     .post-title-section{
+      width: 100%;
+      padding: 10px;
+    }
+    .pd-10{
+      padding: 5px;
+    }
+}
+@media screen and (max-width: 1000px) {
+  .counter-section{
+    width: 100%;
+    padding: 10px;
+  }
+  .post-title-section{
     width: 100%;
     padding: 10px;
   }

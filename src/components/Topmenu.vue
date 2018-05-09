@@ -1,10 +1,9 @@
-
 <template>
   <b-navbar toggleable="md" type="dark" variant="dark">
 
   <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
-  <b-navbar-brand><router-link v-bind:to="'/'" class="nav-link">NavBar</router-link></b-navbar-brand>
+  <b-navbar-brand><router-link v-bind:to="'/'" class="nav-link">Stackoverflow</router-link></b-navbar-brand>
 
   <b-collapse is-nav id="nav_collapse">
 
