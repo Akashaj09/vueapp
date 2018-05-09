@@ -8,6 +8,8 @@ export const userUrl = apiDomain + 'api/user'
 
 export const tagstoreUrl = apiDomain + 'api/tags'
 
+export const questiosUrl = apiDomain + 'api/question'
+
 export const getHeader = function(){
     const tokenData = JSON.parse(window.localStorage.getItem('authUser'))
     const headers = {

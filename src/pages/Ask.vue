@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-md-8 col-sm-12 col-xs-12 col-md-pull-8">
 					<div class="col-md-12 pd-0" align="right">
-						<router-link v-bind:to="'new-questions'" class="btn btn-outline-success btn-sm">Ask a question</router-link>
+						<router-link v-bind:to="'/new-questions'" class="btn btn-outline-success btn-sm">Ask a question</router-link>
 					</div>
 					<div class="col-md-12 col-xs-12 col-sm-12 pd-0">
 						<div class="section-wrapper" v-for="s in std">

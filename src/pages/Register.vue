@@ -35,7 +35,7 @@
                   </div>
                 </div>
                 <div class="form-group no-margin text-danger text-center" v-show='error' v-for="err in error">
-                  {{ err }}
+                  {{ err[0] }}
                 </div>
                 <div class="form-group no-margin text-success text-center" v-show='success'>
                   {{ success }} <router-link :to="'/login'">login here</router-link>
